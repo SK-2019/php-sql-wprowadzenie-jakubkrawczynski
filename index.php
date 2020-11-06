@@ -1,5 +1,5 @@
   <?php
-    echo("<div style='font-size:30px; margin-bottom:20px'><b>Szymon Skalmierski nr26</b></div>");
+    echo("<div style='font-size:30px; margin-bottom:20px'><b>Jakub Krawczyński nr 18</b></div>");
     echo("<hr />");
     function tabelka($zapytanie, $nazwa, $kolumna, $row1){
     $conn=new mysqli("localhost","root","","nauka");
