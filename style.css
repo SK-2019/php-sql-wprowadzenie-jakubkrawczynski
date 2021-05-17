@@ -14,7 +14,7 @@ body{
     flex-wrap: wrap;
     flex-direction: column;
     width: 20%;
-    height: 100vh;
+    height: 200vh;
     align-items: center;
 }
 .menu a{
@@ -44,4 +44,9 @@ body{
     font-family: sans-serif;
     padding: 5px;
     font-weight: bold;
+}
+.php{
+    width: 75%;
+    display: block;
+    padding: 20px;
 }

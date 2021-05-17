@@ -12,8 +12,8 @@
     <div class="heading">Jakub Krawczyński nr18</div>
     <div class="menu">
         <div class="menuheading">MENU:</div>
-        <a href="">AAAAAAAAAAAA</a>
-        <a href="">BBBBBBBBBBBB</a>
+        <a href="index.php">Strona Główna</a>
+        <a href="pracownicy.php">Pracownicy</a>
         <a href="">CCCCCCCCCCCC</a>
         <a href="">DDDDDDDDDDDD</a>
         <a href="">EEEEEEEEEEEE</a>

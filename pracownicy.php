@@ -1,8 +1,7 @@
+<?php include "menu.php" ?>
 <?php
-echo("<div style='font-size:30px; margin-bottom:10px'><b>Jakub Krawczyński nr 18</b></div>");
-    echo("<hr />");
     function tabelka($zapytanie, $nazwa, $kolumna, $row1){
-    require_once("connect.php");
+    require("connect.php");
     $result=$conn->query($zapytanie);
     echo("<div style='font-size:20px; margin-bottom:5px'>$nazwa</div>");
     echo("<table border=2 style='font-size:20px; margin-bottom:20px'>");
@@ -28,4 +27,7 @@ echo("<div style='font-size:30px; margin-bottom:10px'><b>Jakub Krawczyński nr 1
     echo("<hr />");
     tabelka("select avg(zarobki) as myavg, dzial from pracownicy group by dzial having myavg<35", "Średnie zarobki pracowników w poszczególnych działach mniejsze od 35:", "Średnia", "myavg");
     echo("<hr />");
+
 ?>
+</div>
+</div>
