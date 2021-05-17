@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 .container{
     display:flex;
     background-color: yellow;
@@ -11,14 +15,33 @@
     flex-direction: column;
     width: 20%;
     height: 100vh;
+    align-items: center;
+}
+.menu a{
+    margin: 10px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    width: 70%;
+    background-color: lightblue;
     font-size: 20px;
-    color: white;
+    color: black;
+    padding: 5px;
+    font-family: Impact;
+}
+.menuheading{
+    margin: 10px 0;
+    font-size: 30px;
+    color: lightcyan;
+    font-weight: bold;
+    font-family: Verdana;
 }
 .heading{
     background-color: aqua;
     width: 100%;
     text-align: center;
-    font-size: 40px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    font-size:50px;
+    font-family: sans-serif;
     padding: 5px;
+    font-weight: bold;
 }

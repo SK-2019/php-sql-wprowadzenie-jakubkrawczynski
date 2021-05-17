@@ -11,12 +11,13 @@
 <div class="container">
     <div class="heading">Jakub Krawczyński nr18</div>
     <div class="menu">
-        <a href="">A</a>
-        <a href="">B</a>
-        <a href="">C</a>
-        <a href="">D</a>
-        <a href="">E</a>
-        <a href="">F</a>
+        <div class="menuheading">MENU:</div>
+        <a href="">AAAAAAAAAAAA</a>
+        <a href="">BBBBBBBBBBBB</a>
+        <a href="">CCCCCCCCCCCC</a>
+        <a href="">DDDDDDDDDDDD</a>
+        <a href="">EEEEEEEEEEEE</a>
+        <a href="">FFFFFFFFFFFF</a>
     </div>
     <div class="php">
 </body>
