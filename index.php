@@ -1,11 +1,11 @@
   <?php
-    echo("<div style='font-size:30px; margin-bottom:20px'><b>Jakub Krawczyński nr 18</b></div>");
+    echo("<div style='font-size:30px; margin-bottom:10px'><b>Jakub Krawczyński nr 18</b></div>");
     echo("<hr />");
     function tabelka($zapytanie, $nazwa, $kolumna, $row1){
     require_once("connect.php");
     $result=$conn->query($zapytanie);
     echo("<div style='font-size:20px; margin-bottom:5px'>$nazwa</div>");
-    echo("<table border=1 style='font-size:20px; margin-bottom:20px'>");
+    echo("<table border=2 style='font-size:20px; margin-bottom:20px'>");
         echo("<th>$kolumna</th>");
         echo("<th>Dział</th>");
             while($row=$result->fetch_assoc()){
