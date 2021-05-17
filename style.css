@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: yellow;
 }
 .container{
     display:flex;
@@ -14,7 +15,7 @@ body{
     flex-wrap: wrap;
     flex-direction: column;
     width: 20%;
-    height: 200vh;
+    height: 100%;
     align-items: center;
 }
 .menu a{

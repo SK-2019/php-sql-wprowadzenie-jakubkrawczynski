@@ -14,7 +14,7 @@
         <div class="menuheading">MENU:</div>
         <a href="index.php">Strona Główna</a>
         <a href="pracownicy.php">Pracownicy</a>
-        <a href="">CCCCCCCCCCCC</a>
+        <a href="flexbox.php">Flexbox</a>
         <a href="">DDDDDDDDDDDD</a>
         <a href="">EEEEEEEEEEEE</a>
         <a href="">FFFFFFFFFFFF</a>

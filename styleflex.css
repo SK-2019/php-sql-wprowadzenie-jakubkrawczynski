@@ -1,0 +1,175 @@
+.flexcontainer {
+  padding: 5px;
+  width: 95%;
+  height: 110vh;
+  flex-direction:column;
+}
+.bin {
+  background-color: #000000;
+  padding: 5px;
+  width: 62%;
+  height: 43%;
+  margin: 10px;
+}
+.one{
+display: flex;
+justify-content: flex-start;
+align-items: flex-start;
+}
+.two{
+display: flex;
+justify-content: flex-end;
+align-items: flex-start;
+}
+.three{
+display: flex;
+justify-content: flex-start;
+align-items: flex-end;
+}
+.four{
+display: flex;
+justify-content: flex-end;
+align-items: flex-end;
+}
+.five{
+display: flex;
+justify-content: center;
+align-items: flex-start;
+}
+.six{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.seven{
+display: flex;
+justify-content: center;
+align-items: flex-end;
+}
+.eight{
+display: flex;
+justify-content: flex-start;
+align-items: flex-start;
+}
+.nine{
+display: flex;
+justify-content: center;
+align-items: flex-start;
+}
+.ten{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.eleven{
+display: flex;
+justify-content: center;
+align-items: flex-end;
+}
+.twelve{
+display: flex;
+justify-content: flex-start;
+align-items: flex-start;
+}
+.navigation {
+  background-color: #414141;
+  padding: 2px;
+  list-style: none;
+  width: 20%;
+  height: 30%;
+}
+.navigation1 {
+  display: block;
+  background-color: #414141;
+  padding: 2px;
+  list-style: none;
+  width: 50%;
+  height: 60%;
+}
+.space {
+  margin-left: 10px;
+}
+.row1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.column1{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.column2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.row1 a{
+  display: inline-block;
+  padding: 5px;
+  background-color: aliceblue;
+  text-decoration: none;
+  font-size: 15px;
+  text-align: center;
+  transition: 0.3s;
+}
+.row2 a{
+  display: inline-block;
+  padding: 5px;
+  background-color: aliceblue;
+  text-decoration: none;
+  font-size: 15px;
+  text-align: center;
+  transition: 0.2s;
+}
+.column1 a{
+  display: inline-block;
+  padding: 5px;
+  margin-bottom: 3px;
+  width: 60%;
+  background-color: aliceblue;
+  text-decoration: none;
+  font-size: 15px;
+  text-align: center;
+  transition: 0.5s;
+}
+.column2 a{
+  display:inline-block;
+  padding: 5px;
+  margin-bottom: 3px;
+  width: 60%;
+  background-color: aliceblue;
+  text-decoration: none;
+  font-size: 15px;
+  text-align: center;
+  transition: 0.2s;
+}
+.row1 a:hover{
+    background-color: white;
+    border-radius: 25px;
+    font-size: 20px;   
+}
+.row2 a:hover{
+  background-color: rgb(143, 230, 140);
+  color: rgb(105, 62, 62);
+  font-size: 25px;
+}
+.column1 a:hover{
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+.column2 a:hover{
+  background-color: rgb(82, 255, 241);
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
