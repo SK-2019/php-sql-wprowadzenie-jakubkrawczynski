@@ -1,4 +1,21 @@
 .container{
     margin: 0px;
     padding: 0px;
+    display:flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+}
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    width: 20%;
+    height: 70vh;
+}
+.heading{
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    padding: 5px;
 }
